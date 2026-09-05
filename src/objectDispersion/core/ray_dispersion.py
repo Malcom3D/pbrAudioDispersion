@@ -26,7 +26,6 @@ from pbrAudioCommon import EntityManager
 from ..lib.object_dispersion import ObjectDispersion
 from ..lib.dispersion_data import ObjectDispersionPattern
 
-# Integration with the ray tracer
 @dataclass
 class DispersionAwareRayTracer:
     """
