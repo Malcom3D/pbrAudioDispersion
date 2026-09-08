@@ -22,11 +22,10 @@ from typing import Dict, List, Tuple, Optional, Any
 from dataclasses import dataclass, field
 from scipy.spatial import ConvexHull
 
-from pbrAudioCommon import EntityManager
+from pbrAudioCommon import EntityManager, ContactType
 from pbrAudioCommon import _parse_lib, _load_mesh
 from pbrAudioCommon import debug_print, set_debug, set_debug_prefix
 from physicsSolver.lib.trajectory_data import TrajectoryData
-from physicsSolver.lib.force_data import ContactType
 
 from .dispersion_data import ObjectDispersionPattern, ModalRadiator
 
